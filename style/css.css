@@ -75,7 +75,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 100px 10% 0;
 }
 .home-content{
     max-width: 600px;
@@ -122,12 +122,7 @@
     text-decoration: none;
     font-weight: 600;
 }
-.home-img{
-    background: white;
-    border: 20px solid #06C3DD;
-}
 .home-img img{
-    position: relative;
     width: 300px;
     height: 450px;
 }
@@ -285,7 +280,7 @@ span{
     row-gap: 5rem;
 }
 .project-card{
-    height: 600px;
+    height: 500px;
     max-width: 450px;
     background-color:transparent;
     backdrop-filter: blur(30px);
@@ -336,7 +331,7 @@ span{
 /*====================assignment section====================*/
 .assignment-page{
     background-image: url("../assests/images/assignment/assignment.png");
-    height: 170vh;
+    height: 150vh;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -361,27 +356,28 @@ span{
     border: 2px solid #06C3DD;
     background: linear-gradient(white,#06C3DD);
     border-radius: 30px 30px 30px 30px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 .assignment-content div img{
-    width: 100px;
-    height: 100px;
-    margin-left:60px;
+    width: 80px;
+    height: 80px;
+    margin-left:50px;
     padding: 10px;
 }
 .assignment-content div h3{
     display: inline-block;
     justify-content: center;
     align-items: center;
-    padding: 20px 50px;
+    font-size: 15px;
+    padding: 20px 40px;
 }
 .assignment-content div a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background: transparent;
     border: 2px solid white;
     border-radius: 50%;
@@ -453,3 +449,169 @@ span{
     margin: 70px 10px;
 }
 
+/*====================skills section====================*/
+.skills-page{
+    background-image: url("../assests/images/skills/skills.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.skills h1{
+    color: #06C3DD;
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    grid-gap: 4rem;
+}
+.skills-content div img:first-child{
+    width:150px ;
+    height: 150px;
+}
+.skills-content div img:nth-child(2) {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+/*====================gallery section====================*/
+.gallery-page{
+    background-image: url("../assests/images/gallery/gallery.png");
+    height: 120vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.gallery h1{
+    color: #06C3DD;
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.gallery-content  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    grid-gap: 4rem;
+
+}
+.gallery-content div img{
+    width:300px;
+    height: 250px;
+}
+
+/*====================contact section====================*/
+.contact-page{
+    background-image: url("../assests/images/contact/contact.png");
+    height: 200vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.contact h1{
+    color: #06C3DD;
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.contact-content{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+.contact-content form {
+    display: inline-block;
+    background-color: black;
+    border: 10px solid #06C3DD;
+    width: 900px;
+    height: 550px;
+    gap: 2rem;
+}
+.contact-content form div {
+   margin: 10px 20px;
+}
+
+.contact-content form div label{
+    color: white;
+    font-size: 15px;
+}
+.contact-content form div input,
+.contact-content form textarea{
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px 30px 30px 30px;
+    margin: .7rem 0;
+
+}
+.contact-content form div:nth-child(4) a{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #06C3DD;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #06C3DD;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.contact-img{
+    position: relative;
+    margin-bottom: 500px;
+    left: 200px;
+}
+.contact-icons{
+    display: inline-block;
+    margin-top: 100px;
+    right: 300px;
+}
+.contact-icons div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.contact-icons div a:first-child{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    font-size: 40px;
+    color: #06C3DD;
+    text-decoration: none;
+    margin: 0 10px;
+    gap: 4rem;
+}
+.contact-icons div:nth-child(2) address{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    gap: 2rem;
+}
+.contact-icons div:nth-child(3) a:nth-child(2){
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin: 10px 20px;
+    gap: 2rem;
+}
