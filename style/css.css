@@ -154,7 +154,7 @@
 
 /*====================about section====================*/
 .about-page{
-    background-image: url("assests/images/about/bac.png");
+    background-image: url("../assests/images/about/bac.png");
     height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
@@ -175,7 +175,7 @@
     height: 600px;
 }
 .about-content h1{
-    color: black;
+    color: white;
     font-size: 35px;
     font-weight: 600;
 }
@@ -184,7 +184,7 @@ span{
     font-size: 37px;
 }
 .about-content p{
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: 600;
     margin: 10px;
@@ -201,5 +201,251 @@ span{
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #06C3DD;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+/*====================education section====================*/
+.education-page{
+    background-image: url("../assests/images/education/education.png");
+    height: 135vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.education{
+    display: inline-block;
+    padding: 20px 5% 0;
+}
+.education h1{
+    color: #06C3DD;
+    font-size: 35px;
+}
+.education-content .edu{
+    background-color: rgba(1, 1, 31, 0.31);
+    width: 95%;
+    height: 200px;
+    border-radius: 0 50px 50px 0;
+    margin: 20px 0;
+}
+.edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edu img{
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+.edu h3{
+    font-size: 25px;
+    color: #06C3DD;
+
+}
+.edu h4{
+    font-size: 18px;
+    color: white;
+}
+/*====================project section====================*/
+.project-page{
+    background-image: url("../assests/images/project/project.png");
+    height: 135vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.project h3{
+    color: white;
+    font-size: 30px;
+
+}
+.heading{
+    color: #06C3DD;
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.project-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin: 5rem 0;
+    gap: 3rem;
+    row-gap: 5rem;
+}
+.project-card{
+    height: 600px;
+    max-width: 450px;
+    background-color:transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid #06C3DD;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px #06C3DD;
+    transition: 0.4s ease;
+}
+.project-card:hover{
+    box-shadow: 0 0 25px #06C3DD,
+                0 0 50px #06C3DD;
+    transform: scale(1.02);
+}
+.project-card img{
+    max-width: 18vw;
+    object-fit: cover;
+}
+.project-card h3{
+    font-size: 1.5rem;
+    color: #06C3DD;
+}
+.project-card h4{
+    font-size: 1rem;
+    color: white;
+}
+.project-card a{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #06C3DD;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #06C3DD;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*====================assignment section====================*/
+.assignment-page{
+    background-image: url("../assests/images/assignment/assignment.png");
+    height: 170vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.assignment h1{
+    color: #06C3DD;
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.assignment-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    grid-gap: 2rem;
+
+}
+.assignment-content div{
+    border: 2px solid #06C3DD;
+    background: linear-gradient(white,#06C3DD);
+    border-radius: 30px 30px 30px 30px;
+    width: 250px;
+    height: 250px;
+}
+.assignment-content div img{
+    width: 100px;
+    height: 100px;
+    margin-left:60px;
+    padding: 10px;
+}
+.assignment-content div h3{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+.assignment-content div a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 15px 50px 0;
+    transition: .5s ease;
+}
+
+/*====================experience section====================*/
+.experience-page{
+    background-image: url("../assests/images/experience/experience.png");
+    height: 170vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.experience h1{
+    color: #06C3DD;
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.experience-content{
+    display: inline-block;
+    justify-content: space-around;
+
+}
+.experience-content div:first-child img{
+    height: 200px;
+    width: 350px;
+    align-self: start;
+}
+.experience-content div:first-child h5{
+    color: white;
+    font-size: 15px;
+}
+.experience-content div:nth-child(2) img{
+    height: 200px;
+    width: 350px;
+   margin-left: 200px;
+}
+.experience-content div:nth-child(2) h5{
+    color: white;
+    font-size: 15px;
+}
+.experience-content div:nth-child(3) img{
+    height: 200px;
+    width: 350px;
+    align-self: start;
+}
+.experience-content div:nth-child(3) h5{
+    color: white;
+    font-size: 15px;
+}
+.experience-content div:nth-child(4) img{
+    height: 200px;
+    width: 350px;
+    margin-left: 200px;
+}
+.experience-content div:nth-child(4) h5{
+    color: white;
+    font-size: 15px;
 }
 
