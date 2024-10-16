@@ -395,7 +395,7 @@ span{
 /*====================experience section====================*/
 .experience-page{
     background-image: url("../assests/images/experience/experience.png");
-    height: 170vh;
+    height: 150vh;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -407,8 +407,8 @@ span{
     margin: auto;
     padding: 20px;
 }
-.experience-content{
-    display: inline-block;
+.experience-content div{
+    display: inline-flex;
     justify-content: space-around;
 
 }
@@ -420,6 +420,7 @@ span{
 .experience-content div:first-child h5{
     color: white;
     font-size: 15px;
+    margin: 70px 10px;
 }
 .experience-content div:nth-child(2) img{
     height: 200px;
@@ -429,6 +430,7 @@ span{
 .experience-content div:nth-child(2) h5{
     color: white;
     font-size: 15px;
+    margin: 70px 10px;
 }
 .experience-content div:nth-child(3) img{
     height: 200px;
@@ -438,6 +440,7 @@ span{
 .experience-content div:nth-child(3) h5{
     color: white;
     font-size: 15px;
+    margin: 70px 10px;
 }
 .experience-content div:nth-child(4) img{
     height: 200px;
@@ -447,5 +450,6 @@ span{
 .experience-content div:nth-child(4) h5{
     color: white;
     font-size: 15px;
+    margin: 70px 10px;
 }
 
